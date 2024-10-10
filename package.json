@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "@morpheme/timeline": "^1.0.1",
+    "body-parse": "^0.1.0",
+    "bootstrap": "^5.3.3",
+    "concurrently": "^9.0.1",
+    "express": "^4.21.1",
+    "nodemailer": "^6.9.15",
+    "nodemon": "^3.1.7",
+    "react-vertical-timeline-component": "^3.6.0",
+    "timeline-card": "^1.0.3",
+    "timeline-cv": "^1.0.1"
+  },
+  "name": "portfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js",
+    "client": "npm run star --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
